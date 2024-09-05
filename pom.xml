@@ -28,6 +28,7 @@
     </modules>
 
     <properties>
+        <CONFLUENT_VERSION>7.9.0-0</CONFLUENT_VERSION>
         <docker.os_type>ubi8</docker.os_type>
         <docker.file>Dockerfile.${docker.os_type}</docker.file>
         <docker.tag>${io.confluent.common-docker.version}-${docker.os_type}</docker.tag>
